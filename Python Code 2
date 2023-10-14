@@ -1,0 +1,18 @@
+# Define the range for even numbers
+start = 1
+end = 10  # You can adjust this to your desired range
+
+# Initialize a list to store even numbers
+even_numbers = []
+
+# Generate even numbers and add them to the list
+for number in range(start, end + 1):
+    if number % 2 == 0:
+        even_numbers.append(number)
+
+# Calculate the sum of even numbers
+even_sum = sum(even_numbers)
+
+# Print the list of even numbers and their sum
+print(f"Even numbers in the range {start}-{end}: {even_numbers}")
+print(f"Sum of even numbers: {even_sum}")
