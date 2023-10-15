@@ -10,3 +10,20 @@ for number in numbers:
 
 print(f'Even numbers: {even_numbers}')
 print(f'Odd numbers: {odd_numbers}')
+
+# Calculate the sum of even and odd numbers
+even_sum = sum(even_numbers)
+odd_sum = sum(odd_numbers)
+
+# Find the maximum and minimum values in each group
+max_even = max(even_numbers)
+min_even = min(even_numbers)
+max_odd = max(odd_numbers)
+min_odd = min(odd_numbers)
+
+print(f'Sum of even numbers: {even_sum}')
+print(f'Sum of odd numbers: {odd_sum}')
+print(f'Maximum even number: {max_even}')
+print(f'Minimum even number: {min_even}')
+print(f'Maximum odd number: {max_odd}')
+print(f'Minimum odd number: {min_odd}')
